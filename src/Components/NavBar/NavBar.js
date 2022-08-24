@@ -35,7 +35,7 @@ function NavBar() {
                     Productos
                 </NavLink>  
                 <div className='pageTitle'>
-                    {location.pathname.split('/')[1]}
+                    {location.pathname.split('/')[1] || 'Inicio'}
                 </div>
 
             </div>

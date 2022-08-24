@@ -6,8 +6,9 @@ function SlidingMenu(props) {
     return ( <>
         <div className={'menuContainer' + String(props.menuIsActive) }>
            
-            <NavLink className={'navLinkMenu'} to={'/Conocenos'}>Conocenos</NavLink>
-            <NavLink className={'navLinkMenu'} to={'/Inscripcion'}>Inscripcion</NavLink>
+            <NavLink className={'navLinkMenu'} to={'/'}>Inicio</NavLink>
+            <NavLink className={'navLinkMenu'} to={'/Conocenos'}>Conócenos</NavLink>
+            <NavLink className={'navLinkMenu'} to={'/Inscripcion'}>Inscripción</NavLink>
             <NavLink className={'navLinkMenu'} to={'Productos'}>Productos</NavLink>
 
 
