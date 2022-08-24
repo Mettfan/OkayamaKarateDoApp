@@ -1,0 +1,73 @@
+.menuContainertrue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: yellow;
+    width: 200px;
+    animation-name: slideIn;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    top: 110px;
+    left: 0px;
+    padding: 5px;
+    border: 1px solid darkblue;
+}
+.menuContainerfalse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: yellow;
+    width: 200px;
+    animation-name: slideOut;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    top: 110px;
+    left: 0px;
+    padding: 5px;
+
+}
+.navLinkMenu{
+    padding: 5px;
+    text-decoration: none;
+    font-size: large;
+}
+.navLinkMenu.active{
+    background-color: darkblue;
+    color: yellow;
+    font-weight: 600;
+}
+
+
+@keyframes slideOut {
+    0%{
+        /* transform: translate(0px); */
+
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translate(-500px);
+        
+
+    }
+    
+}
+@keyframes slideIn {
+    0%{
+        transform: translate(-500px);
+
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translate(0px);
+
+    }
+    
+}
