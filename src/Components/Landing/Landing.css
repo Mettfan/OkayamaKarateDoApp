@@ -6,7 +6,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    
+    padding-bottom: 7px;
+    padding-top: 7px;
 }
 .karateCover{
     object-fit: cover;

@@ -16,6 +16,8 @@
     animation-name: decreaseImage;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    cursor:pointer;
+
     
 }
 .karateCover:hover{
@@ -37,6 +39,8 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    cursor:pointer;
+
     
     
     /* position: fixed; */

@@ -34,11 +34,11 @@ function NavBar() {
                 <NavLink className={'navLink'} to={'/Productos'}>
                     Productos
                 </NavLink>  
-                <div className='pageTitle'>
-                    {location.pathname.split('/')[1] || 'Inicio'}
-                </div>
 
             </div>
+                <div className='pageTitle'>
+                    {(location.pathname.split('/')[1] || 'Inicio').toUpperCase()}
+                </div>
 
 
         </div>

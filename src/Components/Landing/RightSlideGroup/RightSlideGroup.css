@@ -16,6 +16,7 @@
     animation-name: decreaseImage;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    cursor:pointer;
     
 }
 .karateCover:hover{
@@ -25,7 +26,7 @@
     animation-fill-mode: forwards;
 
     /* height: 100%; */
-
+    
     
 }
 .leyendaCover{
@@ -37,6 +38,9 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    flex-wrap: nowrap;
+    cursor:pointer;
+    /* width: 600px; */
     
     
     /* position: fixed; */
