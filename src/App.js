@@ -9,6 +9,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Products from './Components/Productos/Products';
 import Inscription from './Components/Inscripcion/Inscription';
+import LocationDojos from './Components/LocationDojos/LocationDojos';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Inscripcion' element={<Inscription/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/register' element={<Register/>} />
+        <Route path='/location' element={<LocationDojos/>} />
 
 
       </Routes>

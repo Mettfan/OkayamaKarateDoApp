@@ -2,10 +2,11 @@
     /* position: relative;
     top: 100px; */
     width: fit-content;
-    background-color: rgb(128, 128, 128, 0.2);
+    background-color: #fcfdff;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin: 5px;
     
 }
 .karateCover{
@@ -47,6 +48,11 @@
     /* background-color: red; */
     /* left: 50%; */
     
+}
+.bannerContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 @keyframes growImage {
     100%{
