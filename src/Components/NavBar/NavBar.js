@@ -3,6 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import OkayamaLogo from '../../Assets/OkayamaLogo.png'
 import './NavBar.css'
 import SlidingMenu from './SlidingMenu/SlidingMenu';
+import TeamOutstanding from './TeamOutstanding.js/TeamOutstanding';
 function NavBar() {
     let [state, setState] = useState({
         menuIsActive: false
@@ -39,6 +40,7 @@ function NavBar() {
                 <div className='pageTitle'>
                     {(location.pathname.split('/')[1] || 'Inicio').toUpperCase()}
                 </div>
+                <TeamOutstanding></TeamOutstanding>
 
 
         </div>
