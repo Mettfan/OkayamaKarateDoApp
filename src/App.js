@@ -14,6 +14,7 @@ import TeamOutstanding from './Components/NavBar/TeamOutstanding.js/TeamOutstand
 import TeamOutstandingLanding from './Components/TeamOutstandingLanding/TeamOutstandingLanding.js';
 import UncompletePage from './Components/UncompletePage/UncompletePage';
 import Admin from './Components/Admin/Admin';
+import Landing2 from './Components/Landing/Landing2';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<Landing/>} />
-        {/* <Route path='/Conocenos' element={<About/>} /> */}
+        <Route path='/Conocenos' element={<About/>} />
         {/* <Route path='/Productos' element={<Products/>} /> */}
         {/* <Route path='/Inscripcion' element={<Inscription/>} /> */}
         {/* <Route path='/login' element={<Login/>} />  */}
