@@ -7,6 +7,7 @@ import Plan from './Plan/Plan';
 import Cinta from './Cinta/Cinta';
 import cintaNegra from '../../Assets/cintapng.png'
 import Feature from './Feature/Feature';
+import Extra from './Extra/Extra';
 
 
 function Landing2() {
@@ -84,9 +85,12 @@ function Landing2() {
             description = 'Trabajamos día con día para mejorar las habilidades de nuestro Staff y así usted pueda recibir el mejor entrenamiento mientras nosotros lo guíamos en su camino a Cinta Negra'
             />
         </div>
-        <div className='extrasContainer'>
-
-        </div>
+        {/* <div className='extrasContainer'>
+            <Extra
+                image={personKarate}
+                text = {'Dojos'}
+            ></Extra>
+        </div> */}
     
     </> );
 }
