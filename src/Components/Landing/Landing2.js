@@ -4,6 +4,8 @@ import personKarate from '../../Assets/karatePerson.jpg'
 import coverKarate from '../../Assets/coverKarate.jpg'
 import cintasKarate from '../../Assets/Cintas.jpg'
 import Plan from './Plan/Plan';
+import Cinta from './Cinta/Cinta';
+import cintaNegra from '../../Assets/cintapng.png'
 
 
 function Landing2() {
@@ -40,7 +42,18 @@ function Landing2() {
             />
 
         </div>
-        
+        <div className='gradesContainer'>
+            <Cinta kyu = '10' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '9' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '8' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '7' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '6' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '5' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '4' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '3' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '2' image={cintaNegra}  ></Cinta>
+            <Cinta kyu = '1' image={cintaNegra}  ></Cinta>
+        </div>
     
     </> );
 }

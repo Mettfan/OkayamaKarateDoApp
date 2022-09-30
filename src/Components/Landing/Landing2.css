@@ -11,3 +11,10 @@ align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
+.gradesContainer{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
