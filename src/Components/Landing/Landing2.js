@@ -6,6 +6,7 @@ import cintasKarate from '../../Assets/Cintas.jpg'
 import Plan from './Plan/Plan';
 import Cinta from './Cinta/Cinta';
 import cintaNegra from '../../Assets/cintapng.png'
+import Feature from './Feature/Feature';
 
 
 function Landing2() {
@@ -42,6 +43,18 @@ function Landing2() {
             />
 
         </div>
+
+            <div style={{
+                display: 'flex',
+                justifyContent: 'center',
+                marginTop: '50px',
+                fontSize: 'xx-large',
+                fontFamily: 'Lucida Sans'
+
+            }} >
+                Conoce Nuestras Cintas
+            </div>
+
         <div className='gradesContainer'>
             <Cinta kyu = '10' image={cintaNegra}  ></Cinta>
             <Cinta kyu = '9' image={cintaNegra}  ></Cinta>
@@ -53,6 +66,26 @@ function Landing2() {
             <Cinta kyu = '3' image={cintaNegra}  ></Cinta>
             <Cinta kyu = '2' image={cintaNegra}  ></Cinta>
             <Cinta kyu = '1' image={cintaNegra}  ></Cinta>
+        </div>
+        <div className='featuresContainer'>
+            <Feature 
+            title = {'Desinfección Completa'}
+            image = {personKarate}
+            description = 'Contamos con Tapete Sanitizante y Gel Antibacterial. Desinfectamos nuestro material de entrenamiento para que usted o su hijo pueda entrenar sin preocupaciones'
+            />
+            <Feature 
+            title = {'Ambiente Amigable y Seguro'}
+            image = {personKarate}
+            description = 'Los alumnos interactuan y realizan ejercicios con otros alumnos de diversos grados. Siempre promovemos la disciplina y el respeto entre ellos'
+            />
+            <Feature 
+            title = {'Instructores Capacitados'}
+            image = {personKarate}
+            description = 'Trabajamos día con día para mejorar las habilidades de nuestro Staff y así usted pueda recibir el mejor entrenamiento mientras nosotros lo guíamos en su camino a Cinta Negra'
+            />
+        </div>
+        <div className='extrasContainer'>
+
         </div>
     
     </> );
