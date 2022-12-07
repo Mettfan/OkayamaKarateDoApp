@@ -85,7 +85,8 @@ align-items: center;
 @media (max-width: 920px) {
     .coverText{
         font-size: large;
-        bottom: 150px;
+        bottom: 75px;
+        left: -150px;
     }
     .coverText2{
         font-size: large;
