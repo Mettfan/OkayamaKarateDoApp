@@ -57,6 +57,7 @@
     /* margin-right: 5%; */
     z-index: 1;
     padding: 20px;
+    border-radius: 10px;
     /* padding-top: 5; */
 }
 .navLink.active{
